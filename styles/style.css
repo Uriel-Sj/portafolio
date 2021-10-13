@@ -1,0 +1,499 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+}
+
+header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.364), rgba(0, 0, 0, 0.364)), url(../images/fondohead.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    /* padding-top: 20px; */
+    /* border: 2px solid white; */
+    height: 20vh;
+    align-items: center;
+    font-size: 1.5rem;
+
+}
+
+ul>li{
+    list-style: none;
+}
+
+ul>li>a{
+    text-decoration: none;
+    color: white;
+}
+
+.cuadrado-header{
+    width: 90%;
+    background-color: rgba(0, 0, 0, 0.700);
+    height: 55vh;
+    margin: 0 auto;
+    border-radius: 10px ;
+
+}
+
+.cuadrado-header>h5{
+    color: white;
+    text-align: center;
+    font-size: 1rem;
+    padding: 20px 0 ;
+
+}
+
+.cuadrado-header>h5>span{
+    font-weight: 700;
+    color: white;
+}
+
+.cuadrado-header>h2{
+    color: white;
+    text-align: center;
+}
+
+.cuadrado-header>p{
+    color: white;
+    text-align: center;
+    font-size: 0.7rem;
+    width: 80%;
+    margin: auto;
+    padding-top: 20px;
+}
+
+.cuadrado-header>button{
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 20px;
+    background-color: #f44336;
+    color: white;
+    padding: 5px 0;
+    border: none;
+}
+
+.iconos{
+    
+    margin-top: 50px;
+    height: 10vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+
+.iconos>a{
+    color:#f44336;
+    font-size: 20px;
+}
+
+/* /about  */
+
+/* .about{
+    width: 100%;
+    background-color: blue;
+} */
+
+.texservicio{
+    margin-top: 10px;
+    text-align: center;
+}
+
+.texservicio>p{
+    color: white;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 40px;
+}
+
+.texservicio>h3{
+    color: white;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 10px;
+}
+
+
+
+.contenedor-about{
+    background-color: white;
+    padding-left: 25px;
+    padding-right: 25px;
+    
+}
+
+.imagen-about{
+    width: 100%;
+   
+}
+
+.imagen-about>img{
+    width: 90%;
+    height: auto;
+    margin-left: 5%;
+    margin-top: 30px;
+}
+
+.texto-about>h3{
+    color: black;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 60px;
+    font-size: 1.2rem;
+    font-weight: 900;
+        
+}
+
+.feature-content>h5{
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.texto-about>span{
+    color:#f44336;
+}
+
+.texto-about>p{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: rgba(54, 51, 52, 0.5) solid 1px;
+    
+}
+
+.icon{
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon>i{
+    width: 15%;
+}
+
+.icon>.feature-content{
+    width: 82%;
+}
+
+.info{
+   margin-bottom: 20px;
+   margin-top: 20px;   
+    
+}
+
+.btn-contacto{
+        color: white;
+        text-decoration: none;
+        background-color: #f44336;
+        padding: 7px 15px;
+    }
+
+/* Servicios   */
+
+.sectionservices{
+   padding-top: 30px;
+   margin-top: 20px;
+ }
+
+.row{
+   
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), #1b1c21 url(../images/fondoservicio.jpg) 0% 0%/auto repeat scroll;
+    background-position: 50% 0;
+    background-repeat: no-repeat ;
+    background-attachment: fixed ;
+        
+} 
+
+.servicios{
+    margin: 20px;
+    text-align: center;
+    margin-top: 70px;
+}
+
+
+
+.servicios>.tarjetas {
+    padding: 0 20px 50px 20px;
+    margin-bottom: 60px;
+    background-color: rgba(255, 255, 255, 0.3);
+    
+}
+
+.servicios>.tarjetas>.fa {
+    
+    text-align: center;
+    color: #f44336;
+    font-size: 30px;
+    margin-bottom: 20px;
+    margin-top: -30px;
+    width: 70px;
+    line-height: 70px;
+    background: #eee;
+    border-radius: 50%;
+    
+}
+
+/* PORTAFOLIO E IMAGENES */
+
+.portafolio{
+    margin-top: 30px;
+}
+
+.sectiontexto>p{
+    color: black;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 40px;
+    text-align: center;
+    
+}
+
+.sectiontexto>h3{
+    color: black;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    font-size: 1.2rem;
+    font-weight: 900;
+    text-align: center;
+
+}
+
+.etarjetas>img{
+  
+    width: 100%;
+    height: auto;
+    
+}
+
+
+
+/* Contratame */
+
+.contratame{
+    background: linear-gradient(rgba(5, 0, 0, 0.9), rgba(5, 0, 0, 0.9)), #1b1c21 url(../images/hire.jpg) 0% 0%/auto repeat scroll;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color:#fff;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.contactext{
+    font-weight: 600;
+    margin-bottom: 40px;
+    color: #ffffff;
+    text-align: center;
+    }
+.contactext>.butoncontacto{
+    
+    padding: 10px 30px;
+    border: 1px solid #f44336;
+    color: #f44336;
+    font-size: 13px;
+    background: #f44336;
+    color: #eee;
+    margin-top: 30px;
+    text-decoration: none;
+}
+
+.contactext>h2{
+    margin-bottom: 30px;
+}
+
+
+
+/* MEDIA QUERY */
+
+
+
+
+ @media only screen and (min-width: 992px){
+    .iconos>a{
+        font-size: 30px;
+    }
+
+    .about{
+        width: 100%;
+        display: flex;
+    }
+    
+    .texto-about>h3{
+        
+        font-size: 30px;
+        font-family: 'Montserrat', sans-serif;
+        margin: 0;
+        padding-top: 60px;
+        
+    }
+    
+    .contenedor-about{
+        background-color: white;
+        padding-left: 25px;
+        padding-right: 25px;
+        
+    }
+    
+    .contenedor-info{
+        background-color: white;
+        display: flex; 
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding-top: 15px;
+       
+        
+    }
+    
+    .info{
+        background-color: white;
+        width: 40%;
+        margin-bottom: 20px;
+    }
+    
+    .icon{
+        display: flex;
+    }
+    
+    .icon>i{
+        width: 30%;
+    }
+    .icon>.feature-content{
+        width: 60%;
+    }
+    
+    .fa {
+        color: black;
+    }
+    
+    .feature-content>h5{
+        font-size: 1.2rem;
+        font-weight: 900;
+    }
+    .feature-content>p{
+        font-size: .75rem;
+    }
+    
+    .imagen-about>img{
+        
+        height: auto;
+        margin-left: 60px;
+        margin-top: 60px;
+           
+    }
+    
+    
+    .btn-contacto{
+        color: white;
+        text-decoration: none;
+        background-color: #f44336;
+        padding: 7px 15px;
+    }
+    
+    .mr{
+        margin-right: 90px;
+    }
+
+    ul{
+        justify-content: flex-end;
+    }
+
+    ul>li{
+        margin-right: 20px;
+    }
+
+    ul>li>a:hover{
+        color: #f44336;
+    }
+    .iconos>a:hover{
+        color: white;
+    }
+/* ABOUT    */
+    .cuadrado-header>button{
+        width: 20%;
+        margin-left: 2%;
+        cursor: pointer;
+    }
+
+    .cuadrado-header>button:hover{
+        background-color: white;
+        color: #f44336;
+        border: 1px solid #f44336;
+    }
+
+    .cuadrado-header{
+        width: 50%;
+        margin: 0;
+        margin-left: 5%;
+    }
+
+    .cuadrado-header>h5{
+        font-size: 2rem;
+        text-align: left;
+        padding-left: 20px;
+    }
+    .cuadrado-header>h2{
+        text-align: left;
+        padding-left: 20px;
+    }
+
+    .cuadrado-header>p{
+        
+        font-size: 1rem;
+        padding-left: 20px;
+        text-align: left;
+        padding-left: 20px;
+        width: 100%;
+        margin: none;
+        
+    }
+
+    .btn-contacto:hover{
+        background-color: white;
+        color: #f44336;
+        border: 2px solid #f44336;
+    }
+
+    .texto-about>p{
+        border-bottom: none;
+    }
+    
+    /* SERVICIOS */
+
+    .contenedor-tarjetas{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .servicios{
+        width: 30%;
+    }
+    
+
+    /* PORTAFOLIO */
+
+.espacioimagen{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.etarjetas{
+    width: 25%;
+}
+
+.butoncontacto:hover{
+    color: #2c0f0d;
+    background-color: white;
+    border: 1px solid #f44336;
+}
+} 
+
+
